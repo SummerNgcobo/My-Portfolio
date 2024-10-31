@@ -60,7 +60,7 @@ Array(200).fill().forEach(addStar);
 
 // Background
 
-const spaceTexture = new THREE.TextureLoader().load('works.webp');
+const spaceTexture = new THREE.TextureLoader().load('dust.jpeg');
 scene.background = spaceTexture;
 
 // Avatar
