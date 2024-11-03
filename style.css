@@ -84,3 +84,79 @@ canvas {
   .left {
     grid-column: 6 / 12;
   }
+
+  /* Mobile Styles */
+@media (max-width: 600px) {
+  main {
+    padding: 60px 0; /* Reduced padding */
+    grid-template-columns: 1fr; /* Single column layout */
+  }
+
+  header {
+    grid-column: 1 / -1; /* Full width header */
+    font-size: 1.8rem; /* Smaller font size */
+  }
+
+  section {
+    grid-column: 1 / -1; /* Full width section */
+    font-size: 1rem; /* Smaller font size */
+  }
+
+  blockquote {
+    grid-column: 1 / -1; /* Full width blockquote */
+    font-size: 1.5rem; /* Smaller font size */
+  }
+
+  blockquote p {
+    font-size: 2rem; /* Smaller font size */
+  }
+}
+
+/* Tablet Styles */
+@media (min-width: 601px) and (max-width: 900px) {
+  main {
+    padding: 80px 0; /* Reduced padding */
+    grid-template-columns: repeat(6, 1fr); /* Two column layout */
+  }
+
+  header {
+    grid-column: 1 / -1; /* Full width header */
+    font-size: 2rem; /* Adjusted font size */
+  }
+
+  section {
+    grid-column: 1 / -1; /* Full width section */
+    font-size: 1.2rem; /* Slightly smaller font size */
+  }
+
+  blockquote {
+    grid-column: 1 / -1; /* Full width blockquote */
+    font-size: 1.8rem; /* Adjusted font size */
+  }
+
+  blockquote p {
+    font-size: 3rem; /* Adjusted font size */
+  }
+}
+
+/* Desktop Styles */
+@media (min-width: 901px) {
+  main {
+    padding: 120px 0; /* Original padding */
+    grid-template-columns: repeat(12, 1fr); /* Original layout */
+  }
+
+  header {
+    grid-column: 2 / span 5; /* Original layout */
+    font-size: 2.5rem; /* Original font size */
+  }
+
+  section {
+    grid-column: 2 / 8; /* Original layout */
+    font-size: 1.25rem; /* Original font size */
+  }
+
+  blockquote {
+    grid-column: 2 / span 9; /* Original layout */
+  }
+}
