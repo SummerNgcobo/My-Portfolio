@@ -34,6 +34,7 @@ h1, h2, h3, blockquote {
   font-family: elevon, sans-serif;
   font-weight: 700;
   font-style: normal;
+  color: black;
 }
 
 canvas {
@@ -43,7 +44,6 @@ canvas {
 }
 
 
-
   header {
     background: rgba(0, 0, 0, 0.2);
     grid-column: 2 / span 5;
@@ -51,6 +51,7 @@ canvas {
     padding: 2rem;
     margin-bottom: var(--spacing);
     border-radius: 50px;
+    color: black;
   }
 
   section {
@@ -63,6 +64,7 @@ canvas {
     font-size: 1.25rem;
     line-height: 1.5;
     margin-bottom: var(--spacing);
+    color: black;
 }
 
 
@@ -71,6 +73,7 @@ canvas {
     padding: 0;
     grid-column: 2 / span 9;
     margin-bottom: var(--spacing);
+    color: black;
   }
 
   blockquote p {
