@@ -60,12 +60,12 @@ Array(200).fill().forEach(addStar);
 
 // Background
 
-const spaceTexture = new THREE.TextureLoader().load('dust.jpeg');
+const spaceTexture = new THREE.TextureLoader().load('pattern.jpg');
 scene.background = spaceTexture;
 
 // Avatar
 
-const summerTexture = new THREE.TextureLoader().load('image0.jpg');
+const summerTexture = new THREE.TextureLoader().load('image0.jpeg');
 
 const summer = new THREE.Mesh(new THREE.BoxGeometry(3, 3, 3), new THREE.MeshBasicMaterial({ map: summerTexture }));
 
